@@ -13,7 +13,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HSuuq"
         tools:targetApi="31">
+        <service
+            android:name=".ShopUpdateService"
+            android:enabled="true"
+            android:exported="true"></service>
 
+        <activity
+            android:name=".BottomNavActivity"
+            android:exported="false"
+            android:label="@string/title_activity_bottom_nav" />
+
+        <service
+            android:name=".ShopService"
+            android:enabled="true"
+            android:exported="true" />
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -30,7 +43,7 @@
             android:value="YOUR_API_KEY" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.HSuuq.NoActionBar">

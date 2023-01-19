@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModelProvider
 import com.ayaanle.h_suuq.databinding.FragmentSlideshowBinding
 import com.ayaanle.h_suuq.viewmodel.SlideshowViewModel
 
-class SlideshowFragment : Fragment() {
+class ShopItemsFragment : Fragment() {
 
     private var _binding: FragmentSlideshowBinding? = null
 
