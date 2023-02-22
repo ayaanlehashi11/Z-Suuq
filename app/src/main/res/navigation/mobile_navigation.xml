@@ -22,4 +22,9 @@
         android:name="com.ayaanle.h_suuq.fragment.ShopItemsFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.ayaanle.h_suuq.fragment.ShopMapFragment"
+        android:label="Shop map"
+        tools:layout="@layout/fragment_shop_map" />
 </navigation>

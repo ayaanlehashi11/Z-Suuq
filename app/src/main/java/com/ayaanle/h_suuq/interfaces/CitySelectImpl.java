@@ -1,4 +1,4 @@
-package com.ayaanle.h_suuq.implementation;
+package com.ayaanle.h_suuq.interfaces;
 
 public interface CitySelectImpl <T> {
     public T chooseCity(String city);

@@ -1,7 +1,6 @@
 package com.ayaanle.h_suuq.utils;
 
-import com.ayaanle.h_suuq.implementation.CitySelectImpl;
-
+import com.ayaanle.h_suuq.interfaces.CitySelectImpl;
 public class CitySelection {
     enum Cities implements CitySelectImpl<Cities> {
         Berbera , Hargeisa , Borame , Burco , Erigavo , Zeila

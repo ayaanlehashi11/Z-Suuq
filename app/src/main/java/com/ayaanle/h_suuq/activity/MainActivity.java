@@ -12,7 +12,7 @@ import com.ayaanle.h_suuq.R;
 import com.ayaanle.h_suuq.databinding.ActivityBottomNavBinding;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class BottomNavActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     private ActivityBottomNavBinding binding;
 
